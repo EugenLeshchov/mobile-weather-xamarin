@@ -16,6 +16,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\JsonDeserializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\LocaleInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\PositionExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ViewHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\WeatherService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -23,5 +30,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\Weather.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\FileService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\WeatherService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Helpers\NewFolder\" />
   </ItemGroup>
 </Project>
